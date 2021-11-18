@@ -1,0 +1,21 @@
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.campo {
+    font-size: 3em;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
