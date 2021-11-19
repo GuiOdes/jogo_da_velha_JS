@@ -1,0 +1,64 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+table {
+    margin-top: 2em;
+}
+
+.navbar {
+    font-family: 'Yuji Mai', serif;
+}
+
+.campo {
+    font-size: 3em;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#erro {
+    display: none;
+    color: rgb(145, 0, 0);
+}
+
+.jogar {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+input {
+    margin-bottom: 1em;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#placares {
+    border: solid;
+    width: 8em;
+    border-radius: 0 20px 0 20px;
+}
+
+#placares {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+
+#titulo {
+    border-bottom: solid;
+}
+
+@media (max-width: 850px) {
+    .page {
+        width: 100%;
+    }
+}
